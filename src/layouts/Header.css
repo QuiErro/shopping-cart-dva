@@ -1,0 +1,11 @@
+.menu-container{
+	height: 56px;
+	line-height: 56px;
+}
+.menu-item{
+	width: 140px;
+	font-size: 18px;
+}
+.menu-icon{
+	font-size: 16px !important;
+}

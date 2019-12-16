@@ -1,0 +1,259 @@
+{
+  "products": [
+    {
+      "id": 12,
+	    "bigImage":"http://localhost:3000/images/12064273040195392_1.jpg",
+	    "smallImage": "http://localhost:3000/images/12064273040195392_2.jpg",
+      "sku": 12064273040195392,
+      "title": "Cat Tee Black T-Shirt",
+      "description": "4 MSL",
+      "availableSizes": ["S", "XS"],
+      "style": "Black with custom print",
+      "price": 10.9,
+      "installments": 9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 13,
+	    "bigImage":"http://localhost:3000/images/51498472915966370_1.jpg",
+	    "smallImage": "http://localhost:3000/images/51498472915966370_2.jpg",
+      "sku": 51498472915966366,
+      "title": "Dark Thug Blue-Navy T-Shirt",
+      "description": "",
+      "availableSizes": ["M"],
+      "style": "Front print and paisley print",
+      "price": 29.45,
+      "installments": 5,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 15,
+	    "bigImage":"http://localhost:3000/images/11033926921508487_1.jpg",
+	    "smallImage": "http://localhost:3000/images/11033926921508487_2.jpg",
+      "sku": 11033926921508487,
+      "title": "Skuul",
+      "description": "Treino 2014",
+      "availableSizes": ["X", "L", "XL", "XXL"],
+      "style": "Black T-Shirt with front print",
+      "price": 14.0,
+      "installments": 5,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 11,
+	    "bigImage":"http://localhost:3000/images/39876704341265606_1.jpg",
+	    "smallImage": "http://localhost:3000/images/39876704341265606_2.jpg",
+      "sku": 39876704341265606,
+      "title": "Wine Skul T-Shirt",
+      "description": "",
+      "availableSizes": ["X", "L"],
+      "style": "Wine",
+      "price": 13.25,
+      "installments": 3,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 16,
+	    "bigImage":"http://localhost:3000/images/10412368723880252_1.jpg",
+	    "smallImage": "http://localhost:3000/images/10412368723880252_2.jpg",
+      "sku": 10412368723880253,
+      "title": "Short Sleeve T-Shirt",
+      "description": "",
+      "availableSizes": ["XS", "X", "L", "ML", "XL"],
+      "style": "Grey",
+      "price": 75.0,
+      "installments": 5,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 0,
+	    "bigImage":"http://localhost:3000/images/8552515751438644_1.jpg",
+	    "smallImage": "http://localhost:3000/images/8552515751438644_2.jpg",
+      "sku": 8552515751438644,
+      "title": "Cat Tee Black T-Shirt",
+      "description": "14/15 s/nº",
+      "availableSizes": ["X", "L", "XL", "XXL"],
+      "style": "Branco com listras pretas",
+      "price": 10.9,
+      "installments": 9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 1,
+	    "bigImage":"http://localhost:3000/images/18644119330491312_1.jpg",
+	    "smallImage": "http://localhost:3000/images/18644119330491312_2.jpg",
+      "sku": 18644119330491312,
+      "title": "Sphynx Tie Dye Grey T-Shirt",
+      "description": "14/15 s/nº",
+      "availableSizes": ["X", "L", "XL", "XXL"],
+      "style": "Preta com listras brancas",
+      "price": 10.9,
+      "installments": 9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 2,
+	    "bigImage":"http://localhost:3000/images/11854078013954528_1.jpg",
+	    "smallImage": "http://localhost:3000/images/11854078013954528_2.jpg",
+      "sku": 11854078013954528,
+      "title": "Danger Knife Grey",
+      "description": "14/15 s/nº",
+      "availableSizes": ["X", "L"],
+      "style": "Branco com listras pretas",
+      "price": 14.9,
+      "installments": 7,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 3,
+	    "bigImage":"http://localhost:3000/images/876661122392077_1.jpg",
+	    "smallImage": "http://localhost:3000/images/876661122392077_2.jpg",
+      "sku": 876661122392077,
+      "title": "White DGK Script Tee",
+      "description": "2014 s/nº",
+      "availableSizes": ["X", "L"],
+      "style": "Preto com listras brancas",
+      "price": 14.9,
+      "installments": 7,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 4,
+	    "bigImage":"http://localhost:3000/images/9197907543445677_1.jpg",
+	    "smallImage": "http://localhost:3000/images/9197907543445677_2.jpg",
+      "sku": 9197907543445677,
+      "title": "Born On The Streets",
+      "description": "14/15 s/nº - Jogador",
+      "availableSizes": ["XL"],
+      "style": "Branco com listras pretas",
+      "price": 25.9,
+      "installments": 12,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 5,
+	    "bigImage":"http://localhost:3000/images/10547961582846888_1.jpg",
+	    "smallImage": "http://localhost:3000/images/10547961582846888_2.jpg",
+      "sku": 10547961582846888,
+      "title": "Tso 3D Short Sleeve T-Shirt A",
+      "description": "14/15 + Camiseta 1º Mundial",
+      "availableSizes": ["X", "L", "XL"],
+      "style": "Preto",
+      "price": 10.9,
+      "installments": 9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 6,
+	    "bigImage":"http://localhost:3000/images/6090484789343891_1.jpg",
+	    "smallImage": "http://localhost:3000/images/6090484789343891_2.jpg",
+      "sku": 6090484789343891,
+      "title": "Man Tie Dye Cinza Grey T-Shirt",
+      "description": "Goleiro 13/14",
+      "availableSizes": ["XL", "XXL"],
+      "style": "Branco",
+      "price": 49.9,
+      "installments": 0,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 7,
+	    "bigImage":"http://localhost:3000/images/18532669286405342_1.jpg",
+	    "smallImage": "http://localhost:3000/images/18532669286405342_2.jpg",
+      "sku": 18532669286405342,
+      "title": "Crazy Monkey Black T-Shirt",
+      "description": "1977 Infantil",
+      "availableSizes": ["S"],
+      "style": "Preto com listras brancas",
+      "price": 22.5,
+      "installments": 4,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 8,
+	    "bigImage":"http://localhost:3000/images/5619496040738316_1.jpg",
+	    "smallImage": "http://localhost:3000/images/5619496040738316_1.jpg",
+      "sku": 5619496040738316,
+      "title": "Tso 3D Black T-Shirt",
+      "description": "",
+      "availableSizes": ["XL"],
+      "style": "Azul escuro",
+      "price": 18.7,
+      "installments": 4,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 9,
+	    "bigImage":"http://localhost:3000/images/11600983276356165_1.jpg",
+	    "smallImage": "http://localhost:3000/images/11600983276356165_2.jpg",
+      "sku": 11600983276356165,
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "style": "",
+      "price": 134.9,
+      "installments": 5,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 10,
+	    "bigImage":"http://localhost:3000/images/27250082398145995_1.jpg",
+	    "smallImage": "http://localhost:3000/images/27250082398145995_2.jpg",
+      "sku": 27250082398145995,
+      "title": "On The Streets Black T-Shirt",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "style": "",
+      "price": 49.0,
+      "installments": 9,
+      "currencyId": "USD",
+      "currencyFormat": "$",
+      "isFreeShipping": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+.container{
+  padding: 40px 0 20px;
+  width: 100%;
+  height: 100%;
+  background: #fefefe;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  display: flex;
+}
+.badge{
+  position: fixed;
+  top: 100px;
+  right: 0;
+}
+.icon{
+  margin-right: 10px;
+  width: 60px;
+  height: 50px;
+  background: #001529;
+  color: #fff;
+  font-size: 30px;
+  line-height: 50px;
+  vertical-align: middle;
+  border-radius: 5px;
+  cursor: pointer;
+}
