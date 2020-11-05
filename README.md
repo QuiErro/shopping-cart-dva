@@ -25,3 +25,23 @@
   `yarn run server`
 
 + 在`localhost:8000`下本地访问
+
+### 特别注意
+state 中使用浅拷贝的BUG
+
+原来的
+```
+    addToCart(state, { payload: { data } }) {
+      //...
+      window.localStorage.setItem(STORAGE_NAME, JSON.stringify(cart));
+      return { ...state, cart, counts: state.counts + 1 };
+    },
+```
+更改后
+```
+    addToCart(state, { payload: { data } }) {
+      //...
+      window.localStorage.setItem(STORAGE_NAME, JSON.stringify(cart));
+      return { ...state, cart:JSON.parse(JSON.stringify(cart)), counts: state.counts + 1 };
+    },
+```
