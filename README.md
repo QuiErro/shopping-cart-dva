@@ -28,7 +28,9 @@
 
 ### 特别注意
 state 中使用浅拷贝的BUG
+  
 src\models\products.js
+  
 原来的
 ```
     addToCart(state, { payload: { data } }) {
