@@ -38,19 +38,20 @@ export default {
         cart.push(data);
       }
       window.localStorage.setItem(STORAGE_NAME, JSON.stringify(cart));
-      return { ...state, cart, counts: state.counts + 1 };
+      return { ...state, cart:JSON.parse(JSON.stringify(cart)), counts: state.counts + 1 };
     },
     updateCart(state, { payload: { id, counts }}){
       let cart = [...state.cart];
       let step;
       cart.forEach((item) => {
         if(item.id === id){
-          item.counts = counts;
           step = counts - item.counts;
+          item.counts = counts;
         }
       });
+      console.log();
       window.localStorage.setItem(STORAGE_NAME, JSON.stringify(cart));
-      return { ...state, cart, counts: state.counts + step };
+      return { ...state, cart:JSON.parse(JSON.stringify(cart)), counts: state.counts + step };
     },
     removeCart(state, { payload: { id } }) {
       let cart = [...state.cart];
@@ -65,7 +66,7 @@ export default {
       });
       cart.splice(key, 1);
       window.localStorage.setItem(STORAGE_NAME, JSON.stringify(cart));
-      return { ...state, cart, counts };
+      return { ...state, cart:JSON.parse(JSON.stringify(cart)), counts };
     },
     removeAll(state) {
       window.localStorage.removeItem(STORAGE_NAME);
@@ -83,7 +84,7 @@ export default {
         }
       });
       window.localStorage.setItem(STORAGE_NAME, JSON.stringify(cart));
-      return { ...state, cart };
+      return { ...state, cart:JSON.parse(JSON.stringify(cart)) };
     }
   },
   effects: {
