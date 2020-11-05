@@ -9,7 +9,6 @@ class DrawerProduct extends Component {
     super(props);
 
     this.state = {
-      counts: props.product.counts,
       checked: props.product.checked === undefined ? false : props.product.checked
     }
   }
@@ -36,9 +35,6 @@ class DrawerProduct extends Component {
       },
       onCancel: () => {
         this.props.updateProduct(product.id, 1);
-        this.setState({
-          counts: 1
-        });
       },
     });
   }
@@ -53,9 +49,6 @@ class DrawerProduct extends Component {
       return;
     }
     this.props.updateProduct(product.id, value);
-    this.setState({
-      counts: value
-    });
     this.props.calTotal();
   }
 
@@ -72,11 +65,15 @@ class DrawerProduct extends Component {
       }
     });
   }
+  componentWillReceiveProps(nextProps, nextContext) {
+    console.log(nextProps.product.counts)
+  }
+
 
   render(){
     const {product} = this.props;
-    const {counts, checked} = this.state;
-
+    const { checked} = this.state;
+    const counts = product.counts;
     return (
       <div className={styles.container}>
         <h4 className={styles.title}><span>{product.title}</span><p className={styles.operation}><span>{this.dealWithMoney(product.price)}</span><Icon type="close" onClick={() => this.remove()} className={styles.icon}/></p></h4>
